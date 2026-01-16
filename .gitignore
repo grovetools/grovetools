@@ -1,6 +1,12 @@
-# Binaries
-bin/
-*.exe
+# Local development
+grove/registry.local.json
+.grove-local/
+docs
 
-# OS files
-.DS_Store
+.grove
+.grove-worktrees
+.playwright-mcp
+
+# Go workspace files
+go.work
+go.work.sum
