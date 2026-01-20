@@ -1,0 +1,48 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:grovetools/core.git
+[submodule "agentlogs"]
+	path = agentlogs
+	url = git@github.com:grovetools/agentlogs.git
+[submodule "cx"]
+	path = cx
+	url = git@github.com:grovetools/cx.git
+[submodule "docgen"]
+	path = docgen
+	url = git@github.com:grovetools/docgen.git
+[submodule "flow"]
+	path = flow
+	url = git@github.com:grovetools/flow.git
+[submodule "grove"]
+	path = grove
+	url = git@github.com:grovetools/grove.git
+[submodule "grove-anthropic"]
+	path = grove-anthropic
+	url = git@github.com:grovetools/grove-anthropic.git
+[submodule "grove-gemini"]
+	path = grove-gemini
+	url = git@github.com:grovetools/grove-gemini.git
+[submodule "grove.nvim"]
+	path = grove.nvim
+	url = git@github.com:grovetools/grove.nvim.git
+[submodule "hooks"]
+	path = hooks
+	url = git@github.com:grovetools/hooks.git
+[submodule "nav"]
+	path = nav
+	url = git@github.com:grovetools/nav.git
+[submodule "nb"]
+	path = nb
+	url = git@github.com:grovetools/nb.git
+[submodule "notify"]
+	path = notify
+	url = git@github.com:grovetools/notify.git
+[submodule "project-tmpl-go"]
+	path = project-tmpl-go
+	url = git@github.com:grovetools/project-tmpl-go.git
+[submodule "skills"]
+	path = skills
+	url = git@github.com:grovetools/skills.git
+[submodule "tend"]
+	path = tend
+	url = git@github.com:grovetools/tend.git
