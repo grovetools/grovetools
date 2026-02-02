@@ -1,4 +1,4 @@
-go 1.24.4
+go 1.25
 
 use (
 	./agentlogs
@@ -11,9 +11,9 @@ use (
 	./grove-gemini
 	./grove.nvim
 	./hooks
+	./nav
 	./nb
 	./notify
-	./nav
 	./project-tmpl-go
 	./skills
 	./tend
