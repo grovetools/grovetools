@@ -46,3 +46,6 @@
 [submodule "tend"]
 	path = tend
 	url = git@github.com:grovetools/tend.git
+[submodule "daemon"]
+	path = daemon
+	url = git@github.com:grovetools/daemon.git

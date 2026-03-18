@@ -4,6 +4,7 @@ use (
 	./agentlogs
 	./core
 	./cx
+	./daemon
 	./docgen
 	./flow
 	./grove

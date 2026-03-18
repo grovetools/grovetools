@@ -3,3 +3,6 @@ workspaces = ["*"]
 
 [llm]
 default_model = "gemini-3-pro-preview"
+
+[skills]
+use = ["concept-maintainer"]
