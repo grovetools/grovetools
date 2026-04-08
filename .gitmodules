@@ -49,3 +49,6 @@
 [submodule "daemon"]
 	path = daemon
 	url = git@github.com:grovetools/daemon.git
+[submodule "memory"]
+	path = memory
+	url = git@github.com:grovetools/memory.git
