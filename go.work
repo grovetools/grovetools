@@ -2,7 +2,6 @@ go 1.25
 
 use (
 	./agentlogs
-	./claw
 	./cloud
 	./core
 	./cx
@@ -14,10 +13,12 @@ use (
 	./grove-gemini
 	./grove.nvim
 	./hooks
+	./memory
 	./nav
 	./nb
 	./notify
 	./project-tmpl-go
 	./skills
 	./tend
+	./terminal
 )
