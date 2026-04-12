@@ -52,3 +52,6 @@
 [submodule "memory"]
 	path = memory
 	url = git@github.com:grovetools/memory.git
+[submodule "compositor"]
+	path = compositor
+	url = ssh://git@github.com/grovetools/compositor.git

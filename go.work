@@ -4,6 +4,7 @@ use (
 	./agentlogs
 	./cloud
 	./core
+	./compositor
 	./cx
 	./daemon
 	./docgen
