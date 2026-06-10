@@ -5,4 +5,4 @@ workspaces = ["*"]
 default_model = "gemini-3-pro-preview"
 
 [skills]
-use = ["concept-maintainer"]
+use = ["grove-skill-builder", "grove-skill-maintainer", "grove-feature-coordinator"]
