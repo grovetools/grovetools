@@ -11,3 +11,5 @@ docs
 go.work
 go.work.sum
 
+grove-website/
+go.work.bak

@@ -2,8 +2,8 @@ go 1.25
 
 use (
 	./agentlogs
-	./cloud
 	./core
+	./tuimux
 	./compositor
 	./cx
 	./daemon

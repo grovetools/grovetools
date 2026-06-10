@@ -55,3 +55,12 @@
 [submodule "compositor"]
 	path = compositor
 	url = ssh://git@github.com/grovetools/compositor.git
+[submodule "treemux"]
+	path = treemux
+	url = ssh://git@github.com/grovetools/treemux
+[submodule "tuimux"]
+	path = tuimux
+	url = git@github.com:grovetools/tuimux.git
+[submodule "cloud"]
+	path = cloud
+	url = ssh://git@github.com/grovetools/cloud
