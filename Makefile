@@ -1,12 +1,12 @@
 # Root Makefile for Grove Ecosystem
 
-PACKAGES = agentlogs core cx docgen flow grove grove-anthropic grove-gemini grove.nvim hooks nb notify project-tmpl-go skills tend nav
+PACKAGES = agentlogs compositor core cx daemon docgen flow grove grove-anthropic grove-gemini grove.nvim hooks memory nb notify project-tmpl-go skills tend nav treemux tuimux
 # GROVE-META:ADD-REPO:PACKAGES - Do not remove this comment, used by grove meta add-repo
 
-BINARIES = aglogs core cx docgen flow grove grove-anthropic grove-gemini grove-nvim hooks nb notify skills tend nav
+BINARIES = aglogs core cx docgen flow grove grove-anthropic grove-gemini grove-nvim groved hooks memory nb notify skills tend nav treemux tuimux
 # GROVE-META:ADD-REPO:BINARIES - Do not remove this comment, used by grove meta add-repo
 
-.PHONY: all build clean test fmt vet lint check test-e2e test-ecosystem dev build-all register schema setup help
+.PHONY: all build clean test fmt vet lint check test-e2e dev build-all register schema setup help
 
 # Build all packages
 all: build
@@ -83,10 +83,6 @@ test-e2e:
 	@echo "All E2E tests complete!"
 
 # Quick test of the ecosystem
-test-ecosystem: build
-	@echo "Running ecosystem test..."
-	@./test-ecosystem.sh
-
 # Development builds with race detector
 dev:
 	@echo "Building all packages with race detector..."
@@ -131,7 +127,6 @@ help:
 	@echo "  make lint           - Run linter on all packages"
 	@echo "  make check          - Run all checks (fmt, vet, lint, test)"
 	@echo "  make test-e2e       - Run E2E tests for all packages that have them"
-	@echo "  make test-ecosystem - Run the ecosystem integration test"
 	@echo "  make dev            - Build with race detector"
 	@echo "  make build-all      - Cross-compile for multiple platforms"
 	@echo "  make register       - Register all binaries with grove dev"
