@@ -64,3 +64,6 @@
 [submodule "cloud"]
 	path = cloud
 	url = ssh://git@github.com/grovetools/cloud
+[submodule "sync"]
+	path = sync
+	url = git@github.com:grovetools/sync.git
