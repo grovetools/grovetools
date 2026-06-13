@@ -21,6 +21,7 @@ use (
 	./notify
 	./project-tmpl-go
 	./skills
+	./sync
 	./tend
 	./treemux
 )
