@@ -10,6 +10,7 @@ use (
 	./daemon
 	./docgen
 	./flow
+	./git-viewer
 	./grove
 	./grove-anthropic
 	./grove-gemini

@@ -67,3 +67,6 @@
 [submodule "sync"]
 	path = sync
 	url = git@github.com:grovetools/sync.git
+[submodule "git-viewer"]
+	path = git-viewer
+	url = git@github.com:grovetools/git-viewer.git
