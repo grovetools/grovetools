@@ -73,3 +73,6 @@
 [submodule "grove-openrouter"]
 	path = grove-openrouter
 	url = git@github.com:grovetools/grove-openrouter.git
+[submodule "agent"]
+	path = agent
+	url = git@github.com:grovetools/agent.git
