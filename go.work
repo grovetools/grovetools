@@ -9,6 +9,7 @@ use (
 	./cx
 	./daemon
 	./docgen
+	./eval
 	./flow
 	./git-viewer
 	./grove
