@@ -1,9 +1,9 @@
 # Root Makefile for Grove Ecosystem
 
-PACKAGES = agentlogs compositor core cx daemon docgen flow grove grove-anthropic grove-gemini grove.nvim hooks memory nb notify project-tmpl-go skills tend nav treemux tuimux
+PACKAGES = agentlogs compositor core cx daemon docgen eval flow grove grove-anthropic grove-gemini grove.nvim hooks memory nb notify project-tmpl-go skills tend nav treemux tuimux
 # GROVE-META:ADD-REPO:PACKAGES - Do not remove this comment, used by grove meta add-repo
 
-BINARIES = aglogs core cx docgen flow grove grove-anthropic grove-gemini grove-nvim groved hooks memory nb notify skills tend nav treemux tuimux
+BINARIES = aglogs core cx docgen eval flow grove grove-anthropic grove-gemini grove-nvim groved hooks memory nb notify skills tend nav treemux tuimux
 # GROVE-META:ADD-REPO:BINARIES - Do not remove this comment, used by grove meta add-repo
 
 .PHONY: all build clean test fmt vet lint check test-e2e dev build-all register schema setup help
