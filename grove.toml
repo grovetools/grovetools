@@ -5,7 +5,7 @@ workspaces = ["*"]
 default_model = "gemini-3-pro-preview"
 
 [skills]
-use = ["grove-skill-builder", "grove-skill-maintainer", "grove-feature-coordinator", "grove-concept-maintainer", "concept-scoped-planner", "flow-context-tuner", "grove-feature-coordinator-v2", "grove-feature-subcoordinator", "grove-claude-settings-guide", "grove-feature-subcoordinator-agentic", "grove-worktree-analyzer", "grove-oracle-planner", "grove-oracle-contract-chain", "grove-inbox-triage", "grove-release-coordinator", "grove-oracle-implementer", "grove-satellite-debugger", "grove-demo-pilot", "grove-tui-pilot"]
+use = ["grove-skill-builder", "grove-skill-maintainer", "grove-feature-coordinator", "grove-concept-maintainer", "concept-scoped-planner", "flow-context-tuner", "grove-feature-coordinator-v2", "grove-feature-subcoordinator", "grove-claude-settings-guide", "grove-feature-subcoordinator-agentic", "grove-worktree-analyzer", "grove-oracle-planner", "grove-oracle-contract-chain", "grove-inbox-triage", "grove-release-coordinator", "grove-oracle-implementer", "grove-satellite-debugger", "grove-demo-pilot", "grove-tui-pilot", "grove-tui-pilot-creator"]
 
 # Claude Code: what the grovetools project itself needs (committed + portable).
 # Personal/machine-wide rules — git, python, gcloud, defaultMode, sandbox, and
