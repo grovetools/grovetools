@@ -5,6 +5,9 @@ workspaces = ["*"]
 default_model = "gemini-3-pro-preview"
 
 [skills]
+# "pi" is required for the standing steward agent: without it .pi/skills never
+# syncs and pi-family agents see no skills on disk (skills/pkg/skills/sync.go).
+providers = ["claude", "pi"]
 use = ["grove-skill-builder", "grove-skill-maintainer", "grove-feature-coordinator", "grove-concept-maintainer", "concept-scoped-planner", "flow-context-tuner", "grove-feature-coordinator-v2", "grove-feature-subcoordinator", "grove-claude-settings-guide", "grove-feature-subcoordinator-agentic", "grove-worktree-analyzer", "grove-oracle-planner", "grove-oracle-contract-chain", "grove-inbox-triage", "grove-release-coordinator", "grove-oracle-implementer", "grove-satellite-debugger", "grove-demo-pilot", "grove-tui-pilot", "grove-tui-pilot-creator", "explain-with-analogy", "test-fibonacci-builder", "test-wordcount-analyzer", "grove-feature-pipeline", "grove-source-discovery"]
 
 # Claude Code: what the grovetools project itself needs (committed + portable).
