@@ -15,6 +15,7 @@ use (
 	./grove
 	./grove-anthropic
 	./grove-gemini
+	./grove-openrouter
 	./grove.nvim
 	./hooks
 	./memory
