@@ -3,11 +3,11 @@ go 1.25.0
 use (
 	./agentlogs
 	./cloud
-	./core
-	./tuimux
 	./compositor
+	./core
 	./cx
 	./daemon
+	./devicekey-demo
 	./docgen
 	./eval
 	./flow
@@ -27,4 +27,5 @@ use (
 	./sync
 	./tend
 	./treemux
+	./tuimux
 )
